@@ -5,7 +5,7 @@ public class FileReaderEx{
             try{
             // Attempt to read the file
 
-                BufferedReader reader= new BufferedReader(new FileReader("C:\\Users\\Aditi\\Desktop\\bridgelabz-workspace\\collections_java\\exception_handling\\checked_exception\\data.txt"));
+                BufferedReader reader= new BufferedReader(new FileReader("data.txt"));
                 String line;
                 while((line=reader.readLine()) !=null){
                     System.out.println(line);
